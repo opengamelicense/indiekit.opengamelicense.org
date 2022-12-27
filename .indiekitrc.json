@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "@indiekit/preset-jekyll",
+    "@indiekit/store-github",
+    "@indiekit/syndicator-mastodon"
+  ],
+  "publication": {
+    "me": "https://opengamelicense.org"
+  },
+  "@indiekit/preset-jekyll": {},
+  "@indiekit/store-github": {
+    "user": "opengamelicense",
+    "repo": "opengamelicense.org",
+    "branch": "main"
+  },
+  "@indiekit/syndicator-mastodon": {
+    "url": "https://dice.camp",
+    "user": "ogl"
+  }
+}
